@@ -1,22 +1,13 @@
-# Запуск фронтенда
-для начала скачайте npm и node.js
-
-после этого перейдите в директорию с проектом и введите
-### `npm install`
-### `npm run start`
-готово
-
-# Запуск бэкенда
-перейдите в папку server
+#Устанавливаем python и pip
 
 1) python3 --version //Проверяем
-### Если не установлен
-1.1 sudo apt install python3 //Устанавливаем
+    ### Если не установлен
+    1.1 sudo apt install python3 //Устанавливаем
 
 
 2) pip3 --version //Проверяем
-   ### Если не установлен
-   1.1 sudo apt -y install python3-pip //Устанавливаем
+    ### Если не установлен
+    1.1 sudo apt -y install python3-pip //Устанавливаем
 
 #Создаём и настраиваем среду
 
@@ -32,6 +23,5 @@
 2) python manage.py makemigrations //Создаём миграции
 3) python manage.py migrate //Проводим миграции
 4) python manage.py runserver //приложение запущенно на 8000 порту
-
 
 
